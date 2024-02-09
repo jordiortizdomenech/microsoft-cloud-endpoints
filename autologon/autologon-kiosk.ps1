@@ -1,7 +1,7 @@
 $param($username="kiosklogon0@casarover.net",$password)
 #https://www.reddit.com/r/Intune/comments/1ajh1lc/automatic_logon_broken_on_full_entra_joined/
 
-$u = "kiosklogon0@casarover.net"
+$u = $username
 $p = $password
 $path = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"
 
